@@ -50,12 +50,11 @@ export function Header() {
               </Button>
             </Link>
           ) : (
-            // <Link href="/sign-in">
-            //   <Button variant="default" className="ml-4 cursor-pointer">
-            //     <FiLogIn className="mr-2" /> Login
-            //   </Button>
-            // </Link>
-            <></>
+            <Link href="/sign-in">
+              <Button variant="default" className="ml-4 cursor-pointer">
+                <FiLogIn className="mr-2" /> Login
+              </Button>
+            </Link>
           )}
         </nav>
 
