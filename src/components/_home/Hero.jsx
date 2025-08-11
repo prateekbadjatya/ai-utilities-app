@@ -26,7 +26,7 @@ export function Hero() {
         {/* Main heading with gradient text */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
           <span className="bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
-            AI Utility
+            AI-powered utilities
           </span>
           <br />
           <span className="bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 bg-clip-text text-transparent">
