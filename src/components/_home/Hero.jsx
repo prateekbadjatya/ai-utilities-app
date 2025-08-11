@@ -47,7 +47,7 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-6 mb-16 animate-fade-in-up delay-400">
-          <Link href="#">
+          <Link href="/dashboard">
             <Button
               size="lg"
               className="px-8 py-4 text-lg font-semibold bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white border-0 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 cursor-pointer group"
@@ -59,7 +59,7 @@ export function Hero() {
               </span>
             </Button>
           </Link>
-          <Link href="/login">
+          <Link href="/dashboard">
             <Button
               size="lg"
               variant="outline"

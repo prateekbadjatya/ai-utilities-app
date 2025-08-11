@@ -37,12 +37,12 @@ export function Header() {
           >
             <FiHome className="mr-1" /> Home
           </Link>
-          <Link
+          {/* <Link
             href="/features"
             className="flex items-center text-gray-600 hover:text-primary transition"
           >
             <FiStar className="mr-1" /> Features
-          </Link>
+          </Link> */}
           {isSignedIn ? (
             <Link href="/dashboard">
               <Button variant="default" className="ml-4 cursor-pointer">
@@ -50,11 +50,12 @@ export function Header() {
               </Button>
             </Link>
           ) : (
-            <Link href="/sign-in">
-              <Button variant="default" className="ml-4 cursor-pointer">
-                <FiLogIn className="mr-2" /> Login
-              </Button>
-            </Link>
+            // <Link href="/sign-in">
+            //   <Button variant="default" className="ml-4 cursor-pointer">
+            //     <FiLogIn className="mr-2" /> Login
+            //   </Button>
+            // </Link>
+            <></>
           )}
         </nav>
 
