@@ -85,7 +85,7 @@ export function Header() {
               >
                 <FiStar className="mr-2" /> Features
               </Link>
-              <Link href="/login">
+              <Link href="/sign-in">
                 <Button
                   variant="default"
                   className="w-full mt-2 cursor-pointer"
