@@ -1,0 +1,21 @@
+Turbo pack in package json:
+
+
+In your script, "dev": "next dev --turbopack", the --turbopack flag tells Next.js to use Turbopack as the development bundler instead of the default Webpack.
+
+Turbopack is a new, high-performance bundler created by Vercel (the creators of Next.js). It is designed to be much faster than Webpack, especially for large projects, by using incremental computation and native code (written in Rust). When you run npm run dev or yarn dev, your app will start in development mode using Turbopack for faster builds and hot reloads.
+
+Key benefits: - Faster startup and rebuild times compared to Webpack. - Better performance for large codebases. - Native support for modern features and Next.js conventions.
+
+
+
+
+
+
+
+
+
+
+import useLocalStorage from 'use-local-storage';
+
+const [theme, setTheme] = useLocalStorage('theme', 'light');
